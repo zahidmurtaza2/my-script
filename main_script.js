@@ -11,6 +11,7 @@ function isSameOrigin(url1, url2) {
 
 // Set to keep track of visited links
 var visitedLinks = new Set();
+console.log("Link holder loaded")
 
 // Function to open a link through CAPTCHA verification
 function openLinkThroughCaptcha(url) {
